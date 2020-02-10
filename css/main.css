@@ -1,0 +1,111 @@
+body {
+	background: url(../Img/1.jpg) no-repeat;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "SF Mono", Arial, Cambria, sans-serif;
+}
+div{
+	padding: 5px 15px;
+}
+.header {
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.container{
+	background: #E1E6ED;
+	background-position: center;
+	text-align: justify;
+}
+.footer{
+	font-kerning: bold;
+	color:#BBBABA ;
+	background:#757575;
+	opacity: 0.6;
+}
+.menu{
+	position: relative;
+	padding: 0;
+	margin-bottom: 70px;
+	z-index: 10;
+	left: 158px;
+}
+.menu li{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 50px;
+	border: 1px solid #000;
+	background: #E1E6ED;
+}
+.menu li:hover{
+	background: #757575;
+}
+.menu a{
+	color: Black;
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	text-align: center;
+}
+.menu a:hover{
+	text-decoration: none;
+}
+
+.menu li ul{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -41px;
+	width: 200px;
+	display: none;
+}
+.menu li:hover ul{
+	display: block;
+}
+
+.btn-top{
+	display: none;
+	position: fixed;
+	bottom: 60px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #E1E6ED;
+	color: #757575;
+	cursor: pointer;
+	padding: 15px 40px;
+	border-radius: 10px;
+}
+.btn-top:hover{
+	background-color: #9C9B9B;
+}
+.trailer{
+	text-align:
+}
+.common{
+	background-color: #9C9B9B;
+	color: #E0E0E0;
+}
+.uncommon{
+	color: #84dc26;
+}
+.rare{
+	color: #3391e9;
+}
+.epic{
+	color: #7a38ff;
+}
+.legendary{
+	color: #f27900;
+}
+.comp a{
+	text-decoration: none;
+}
+.galery{
+	margin: 0px auto;
+	text-align: center;
+}
